@@ -1,0 +1,14 @@
+
+{
+"maxEvents": 6,
+"maxRedirects": 3,
+"maxRetries": 3,
+"eventExpiry": 10000,
+"maxStorageTime": 1000,
+"priorityEvents": ["APP_LAUNCH", "DEEPLINK_LAUNCH", "ADD_TO_CART", "REMOVE_FROM_CART", "ADD_TO_WISHLIST", "REMOVE_FROM_WISHLIST", "PURCHASE_COMPLETED"],
+"nonPriorityEvents": ["CART_VIEW", "PAGE_VIEW", "PRODUCT_LIST_VIEW", "PRODUCT_VIEW", "SEARCH_VIEW", "LOCATION", "CUSTOM", "DEVICE_INFORMATION", "USER_DETAILS", "PRODUCT_CANCELLED", "PRODUCT_RETURNED"],
+"configExpiry": 1440,
+"EventsInLimitAdTracking": 1,
+"gzipEnablePayloadSize": 1000,
+"domain": ""
+}
